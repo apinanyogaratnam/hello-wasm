@@ -4,6 +4,12 @@
 A simple hello wasm package that allows you to add in javascript
 using web assembly. This helps with speed boots and other things.
 
+## Install dependencies
+wasm-pack: https://rustwasm.github.io/wasm-pack/installer/
+```bash
+curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+```
+
 ## Run
 ```bash
 wasm-pack build --target web
